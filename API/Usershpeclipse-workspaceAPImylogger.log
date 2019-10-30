@@ -1,0 +1,215 @@
+[main] INFO  com.twitter.API.Tweet  - posting a tweet ----------
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://api.twitter.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to api.twitter.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /1.1/statuses/update.json?status=I%20am%20happy%20to%20learn%20trending%20technologies%20%23qualitest HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /1.1/statuses/update.json?status=I%20am%20happy%20to%20learn%20trending%20technologies%20%23qualitest HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: api.twitter.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Authorization: OAuth oauth_nonce="540441342", oauth_signature="EA9xiv8J%2BE0bTPnmNGsgWFp4N38%3D", oauth_token="1175469104443953152-ZVyVR0w0jBNfLRznSkf2aK7ucaTyRQ", oauth_consumer_key="xggorqUil4UTRga1oDad9IMja", oauth_timestamp="1572280402", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /1.1/statuses/update.json?status=I%20am%20happy%20to%20learn%20trending%20technologies%20%23qualitest HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: api.twitter.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.headers  - >> Authorization: OAuth oauth_nonce="540441342", oauth_signature="EA9xiv8J%2BE0bTPnmNGsgWFp4N38%3D", oauth_token="1175469104443953152-ZVyVR0w0jBNfLRznSkf2aK7ucaTyRQ", oauth_consumer_key="xggorqUil4UTRga1oDad9IMja", oauth_timestamp="1572280402", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 403 Forbidden[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-encoding: gzip[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-length: 85[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "date: Mon, 28 Oct 2019 16:33:19 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "last-modified: Mon, 28 Oct 2019 16:33:19 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "pragma: no-cache[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "server: tsa_k[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "set-cookie: personalization_id="v1_yHEpj7UwN/okrDPOXGDFpQ=="; Max-Age=63072000; Expires=Wed, 27 Oct 2021 16:33:19 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "set-cookie: guest_id=v1%3A157228039935797648; Max-Age=63072000; Expires=Wed, 27 Oct 2021 16:33:19 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "status: 403 Forbidden[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-access-level: read-write[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-connection-hash: f07a18f1b383804a756b2130a80eefca[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-response-time: 196[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-transaction: 00c1a1560055322f[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-xss-protection: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 403 Forbidden
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 403 Forbidden
+[main] DEBUG org.apache.http.headers  - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[main] DEBUG org.apache.http.headers  - << content-disposition: attachment; filename=json.json
+[main] DEBUG org.apache.http.headers  - << content-encoding: gzip
+[main] DEBUG org.apache.http.headers  - << content-length: 85
+[main] DEBUG org.apache.http.headers  - << content-type: application/json;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << date: Mon, 28 Oct 2019 16:33:19 GMT
+[main] DEBUG org.apache.http.headers  - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[main] DEBUG org.apache.http.headers  - << last-modified: Mon, 28 Oct 2019 16:33:19 GMT
+[main] DEBUG org.apache.http.headers  - << pragma: no-cache
+[main] DEBUG org.apache.http.headers  - << server: tsa_k
+[main] DEBUG org.apache.http.headers  - << set-cookie: personalization_id="v1_yHEpj7UwN/okrDPOXGDFpQ=="; Max-Age=63072000; Expires=Wed, 27 Oct 2021 16:33:19 GMT; Path=/; Domain=.twitter.com
+[main] DEBUG org.apache.http.headers  - << set-cookie: lang=en; Path=/
+[main] DEBUG org.apache.http.headers  - << set-cookie: guest_id=v1%3A157228039935797648; Max-Age=63072000; Expires=Wed, 27 Oct 2021 16:33:19 GMT; Path=/; Domain=.twitter.com
+[main] DEBUG org.apache.http.headers  - << status: 403 Forbidden
+[main] DEBUG org.apache.http.headers  - << strict-transport-security: max-age=631138519
+[main] DEBUG org.apache.http.headers  - << x-access-level: read-write
+[main] DEBUG org.apache.http.headers  - << x-connection-hash: f07a18f1b383804a756b2130a80eefca
+[main] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[main] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[main] DEBUG org.apache.http.headers  - << x-response-time: 196
+[main] DEBUG org.apache.http.headers  - << x-transaction: 00c1a1560055322f
+[main] DEBUG org.apache.http.headers  - << x-twitter-response-tags: BouncerCompliant
+[main] DEBUG org.apache.http.headers  - << x-xss-protection: 0
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json;charset=utf-8
+[main] DEBUG org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xaa]VJ-*[0xca]/*V[0xb2][0x8a][0xae]VJ[0xce]OIU[0xb2]2[0xb4]0[0xd7]Q[0xca]M-.NL[0x7][0xf2][0x94][0x82]K[0x12]KJ[0x8b][0x15]2[0x8b][0x15][0x12][0x15]RJ[0xb]r2[0x93][0x13]KR[0xf5][0x94]jck[0x1][0x0][0x0][0x0][0xff][0xff][0x3][0x0]L[0xb4][0xa3][0x98]<[0x0][0x0][0x0]"
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] INFO  com.twitter.API.Tweet  - posting a tweet ----------
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Get connection for route {s}->https://api.twitter.com:443
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator  - Connecting to api.twitter.com:443
+[main] DEBUG org.apache.http.client.protocol.RequestAddCookies  - CookieSpec selected: ignoreCookies
+[main] DEBUG org.apache.http.client.protocol.RequestAuthCache  - Auth cache not set in the context
+[main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication  - Target auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication  - Proxy auth state: UNCHALLENGED
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Attempt 1 to execute request
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Sending request: POST /1.1/statuses/update.json?status=i%20am%20prettyr%20much%20excited%20to%20learn%20trending%20technologies%20%23qualitest HTTP/1.1
+[main] DEBUG org.apache.http.wire  -  >> "POST /1.1/statuses/update.json?status=i%20am%20prettyr%20much%20excited%20to%20learn%20trending%20technologies%20%23qualitest HTTP/1.1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept: */*[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Content-Length: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Host: api.twitter.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Connection: Keep-Alive[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "Authorization: OAuth oauth_nonce="2481652156", oauth_signature="x4bPlNED7BXdU3Z%2Fx1h3c92MiR8%3D", oauth_token="1175469104443953152-ZVyVR0w0jBNfLRznSkf2aK7ucaTyRQ", oauth_consumer_key="xggorqUil4UTRga1oDad9IMja", oauth_timestamp="1572280441", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  >> "[\r][\n]"
+[main] DEBUG org.apache.http.headers  - >> POST /1.1/statuses/update.json?status=i%20am%20prettyr%20much%20excited%20to%20learn%20trending%20technologies%20%23qualitest HTTP/1.1
+[main] DEBUG org.apache.http.headers  - >> Content-Type: application/x-www-form-urlencoded; charset=ISO-8859-1
+[main] DEBUG org.apache.http.headers  - >> Accept: */*
+[main] DEBUG org.apache.http.headers  - >> Content-Length: 0
+[main] DEBUG org.apache.http.headers  - >> Host: api.twitter.com
+[main] DEBUG org.apache.http.headers  - >> Connection: Keep-Alive
+[main] DEBUG org.apache.http.headers  - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+[main] DEBUG org.apache.http.headers  - >> Accept-Encoding: gzip,deflate
+[main] DEBUG org.apache.http.headers  - >> Authorization: OAuth oauth_nonce="2481652156", oauth_signature="x4bPlNED7BXdU3Z%2Fx1h3c92MiR8%3D", oauth_token="1175469104443953152-ZVyVR0w0jBNfLRznSkf2aK7ucaTyRQ", oauth_consumer_key="xggorqUil4UTRga1oDad9IMja", oauth_timestamp="1572280441", oauth_signature_method="HMAC-SHA1", oauth_version="1.0"
+[main] DEBUG org.apache.http.wire  -  << "HTTP/1.1 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-disposition: attachment; filename=json.json[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-encoding: gzip[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-length: 835[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "content-type: application/json;charset=utf-8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "date: Mon, 28 Oct 2019 16:33:58 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "expires: Tue, 31 Mar 1981 05:00:00 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "last-modified: Mon, 28 Oct 2019 16:33:58 GMT[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "pragma: no-cache[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "server: tsa_k[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "set-cookie: personalization_id="v1_O1MjJUqK5GUWZ5MSz9TIbg=="; Max-Age=63072000; Expires=Wed, 27 Oct 2021 16:33:58 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "set-cookie: lang=en; Path=/[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "set-cookie: guest_id=v1%3A157228043848090751; Max-Age=63072000; Expires=Wed, 27 Oct 2021 16:33:58 GMT; Path=/; Domain=.twitter.com[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "status: 200 OK[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "strict-transport-security: max-age=631138519[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-access-level: read-write[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-connection-hash: be03a9dc473da3ddbe998699a4c19304[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-content-type-options: nosniff[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-frame-options: SAMEORIGIN[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-response-time: 233[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-transaction: 001636b3004123a8[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-twitter-response-tags: BouncerCompliant[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "x-xss-protection: 0[\r][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[\r][\n]"
+[main] DEBUG org.apache.http.impl.conn.DefaultClientConnection  - Receiving response: HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << HTTP/1.1 200 OK
+[main] DEBUG org.apache.http.headers  - << cache-control: no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+[main] DEBUG org.apache.http.headers  - << content-disposition: attachment; filename=json.json
+[main] DEBUG org.apache.http.headers  - << content-encoding: gzip
+[main] DEBUG org.apache.http.headers  - << content-length: 835
+[main] DEBUG org.apache.http.headers  - << content-type: application/json;charset=utf-8
+[main] DEBUG org.apache.http.headers  - << date: Mon, 28 Oct 2019 16:33:58 GMT
+[main] DEBUG org.apache.http.headers  - << expires: Tue, 31 Mar 1981 05:00:00 GMT
+[main] DEBUG org.apache.http.headers  - << last-modified: Mon, 28 Oct 2019 16:33:58 GMT
+[main] DEBUG org.apache.http.headers  - << pragma: no-cache
+[main] DEBUG org.apache.http.headers  - << server: tsa_k
+[main] DEBUG org.apache.http.headers  - << set-cookie: personalization_id="v1_O1MjJUqK5GUWZ5MSz9TIbg=="; Max-Age=63072000; Expires=Wed, 27 Oct 2021 16:33:58 GMT; Path=/; Domain=.twitter.com
+[main] DEBUG org.apache.http.headers  - << set-cookie: lang=en; Path=/
+[main] DEBUG org.apache.http.headers  - << set-cookie: guest_id=v1%3A157228043848090751; Max-Age=63072000; Expires=Wed, 27 Oct 2021 16:33:58 GMT; Path=/; Domain=.twitter.com
+[main] DEBUG org.apache.http.headers  - << status: 200 OK
+[main] DEBUG org.apache.http.headers  - << strict-transport-security: max-age=631138519
+[main] DEBUG org.apache.http.headers  - << x-access-level: read-write
+[main] DEBUG org.apache.http.headers  - << x-connection-hash: be03a9dc473da3ddbe998699a4c19304
+[main] DEBUG org.apache.http.headers  - << x-content-type-options: nosniff
+[main] DEBUG org.apache.http.headers  - << x-frame-options: SAMEORIGIN
+[main] DEBUG org.apache.http.headers  - << x-response-time: 233
+[main] DEBUG org.apache.http.headers  - << x-transaction: 001636b3004123a8
+[main] DEBUG org.apache.http.headers  - << x-twitter-response-tags: BouncerCompliant
+[main] DEBUG org.apache.http.headers  - << x-xss-protection: 0
+[main] DEBUG org.apache.http.impl.client.DefaultHttpClient  - Connection can be kept alive indefinitely
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsing response as: application/json;charset=utf-8
+[main] DEBUG org.apache.http.wire  -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0xb4]UMo[0xe2]0[0x10][0xfd]+[0x96][0xf7][0xb8][0x8][0x12][0xbe][0x89][0xb4][0x87][0xee]R[0xa4][0x1e]V[0xbb]R[0xf7][0xd6]T[0x96][0x13]&`[0xe1][0xd8][0xd4]vJY[0xc4][0xdf]qBB([0xb4][0xb7][0xe5][0xd4][0xcc][0x9b]/[0xcf][0xbc]7=[0xd0][0xd4][0x0]w[0xb0]d[0xdc][0xd1][0x88][0xfe][0xd4][0x8a][0xfc]J[0x1d][0xe9]OI8[0x8e][0x6][0x83]h4%_[0x3][0xfc][0x91]~[0x10][0xce]h[0x87][0x8a]%[0x8d][0xc2]p:[0x9d][0x8e][0xc6][0xc3]a[0xd2][0x9f][0x8d][0xc3][0xd1]`[0x1c]z[0x80]Yg0[0xc5][\r][0x14][0xe3][0x1c][0xbc][0xf9][0xfc][0x82][0xf0][0x9c]l[\r]8[0xb7]7$/[0xd2]5[0x81][0xb7]T`y[0xe2]4[0x91][0xc0][0x8d]"[0xce][0x80]Z[\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0xb5]"[0xe][0xd2][0xb5][0xd2]R[0xaf][0x4]X[0xf2][0xe5][0xa5][0xe0][0x12][0x1d][0xad][0xf3][0xc9]L[0xa1]R[0xdf]4[0x8d]2.-t(('[0x1c][0xfa][0xd1][0xe8]@[0xd7][0xdc][0xae][0x1d]_[0xe1][0xdf]O[0x87][0xba]n;Z`[0xfa][0xd4][0xbb]>[0x8d]&[0x9d][0xf1][0xe4][0xf9][0xf8][0xdc][0xa1]v[0x9f]'Zz[0x1b]~[0x14][0x16][0xc][0xcb]}J[0xad]j[0x93][0xa9][0xc0]#[0xba][0xea][0xc2][0xa4][0x80]9[0xe3]"[0x8][0x6])'k[0x3][0xd9][0xb7][0x98][0xae][0x9d][0xdb][0xda]([0xee][0xc5]=[0x91]`%[0x9e][[0xae]VRl[0xb8][0xe9][0xee][0xc4][0x9b][0xc5][0xea][0xdd]T[0xe7]q[0xf][0xca]g[0xe2][0x3]cJ[0xc]H[0x8c]T:[0xd3]R[0xea]]\[0xa5][0x84]?[0xd8][0xe7][0xdd][0xef][0x7]^8][0xd5][0x88]{[0xbc]B[0xca][0xee][0x99][0x81][0xad][0xdc]3[0xa7]q[0xe0][0xdc][0x15][0x96][0xf9][0x9d][0xa8]B[0xca][0xf][0xc0]j/[0xd7][0xe][0xe5]3o[0xc7][0x9e][0xa0][0x8f]"-r[0x6][0x14]S<[0x87][0x1a][0xf6][0x11]~[0xf8][0x15]?&[0xa3][0xe1]x[0x16][0x6][0xc3][0xe1]p0[0x1b][\r][0xc2]Q[0xff][0x82][0x1f]W(>[0xab][0xca]E[0x1f][0xaa][0xd1][0x91]fv[0x8]]T[0xab]=N[0xe][0x9e]ZR#[0x17]pU[0x8]~[0xf7]Vm[0xfc][0x9c][0x96][0x80]qb{[0x2]h[0xb9][0xc2][0xba][0xd9]6[.[0xfc][0xe][0xe7]E[0xe3][0xa6][0xb7]F#[0x7][0xdb]4[0xab][0xf6][0x4][0xc6][0xb2]T[0x17][\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0x89]5@[0x9b][0x11]H[0xd8][0xc6]2[0xc3][0x86][0x84][0xf5][0x82]:[0x19][0x82][0xce][0xa5][0xc4][0x1e][0xb9]#[0x8f][0xb0]%[0xfd][0x90][0x84][0xd3]([0x8][0xa2]~p)[0xb1][0x8c][0xbf]"[0xc5]<[[0xeb][0x14]![0x96])\[0xca]t[0x96]Yp[0xf5]+[0x9c][0xc8][0x81][0xfd][0xd5][0xaa][0xd9][0xc1][\n]"
+[main] DEBUG org.apache.http.wire  -  << "4[0x3][0xc5][0x13][0xd9][0xea][0xf8][0x15][0x8c][0xc8]D[0xcb]P[0xd1][0xe2][0x9c]{[0x88][0xb9]%[0x8e][0xad]N[0x92]j[0xe5][0x8c]H[0x90]{[0xf8][0xca][0xf7][0xd9][0x84]e[0xce]pe%G[0xf8][0x96][0x15][0xa7]x[0x15][0x84]c[0xcc][0x84][0x4][0x96][0xf0]t[0xb3]2X[0xd5][0x8f]F[0xfa]x[0xba][0x18]-[0xa6][0x8b];z[0xd3]G[0xe4]|[0x5][0xac][0xb5][0xb5][0xcf]|X[0xa9][0xbe]O<[0x1d]~_u[0xd4]*Q[0xca][0xb7]T/Ol[0xd7][0xed]D[0xbe][0xaa][0xe4]j[0x9d]H7[0xfb][0xb8][0xb7][0x84][0x8c][0x17][0xd2][0xb1][0x8b]X{mW[0xda][0xe4]\v[0xb7]8[0xd1][0x1b][0x85][0xea]>[[0xd7][0xe2][0xd4][0x93]Bm[0x9a]![0x87][0xf3][0xbb]p[0xd1]o[0xa1]V,![0xe1][0x86]%[0xda],Q[0xe7][0xb5][0xdf][0x8f]`~?[0xbf][0xe1][0x87][0x1f][0xb2][0xf1][0x9a][0xa3][0xd3]b[0xdc][0xf2][0xf2][0x17][0xb6]A[0x7][0xe5][0xaf][0x85]"[0xd5][0xae][0x16]F#<[0xe0][0xb8][0x6]<[0xd4][0xc][0x83]Q=[0xa8][0x8d]S@[0x8d][0xbd]{[0xe6][0x7][0xe6][0xcb]|[0x95]:[0x85][0xe7][0xf2][0x85]^[0xf1]p[0xbd][0x14]xS[0x99][0x5][0xcf][0xf8][0x13][0xa6][0xb4]CeT[0xa7][0xc3]6[0xd6]3[0xbd][0x99][0xdb]o[0xfd][0xc1]Q^a[0xc7]R]g[0x8d][0xe0][0xe4][0x84]BM[0x9f])'y[\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0xb7]4[0xd4][0xdc]O[0xcb]^[\n]"
+[main] DEBUG org.apache.http.wire  -  << "[0xbc]'[0xa7][0xbb][0xdc][0x14][0xc4][0xff][0x85];[0x0][0xd7][0xba][0x16]^[0xff]^[0xfe]7L[0xcb][0xf7]a-K%b[0xbc]m[0xf4][0xf8][0xf][0x0][0x0][0xff][0xff][0x3][0x0][0xbc][0xf]=[0xac][0xd5][0x7][0x0][0x0]"
+[main] DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder  - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6b5966e1
+[main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager  - Connection can be kept alive indefinitely
+[main] INFO  com.twitter.API.Tweet  - posting a tweet ----------
+[main] INFO  com.twitter.API.Tweet  - posting a tweet ----------
+[main] INFO  com.twitter.API.Tweet  - posting a tweet ----------
+[main] INFO  com.twitter.API.AllTweets  - fetching all tweets of user:
+[main] INFO  com.twitter.API.BlockUser  - blocking user from replying or retweeting from this account
+[main] INFO  com.twitter.API.DisplayName  - displaying messages along with user nameIbtesam sanglikar
+[main] INFO  com.twitter.API.Search2  - fetching tweets with #qualitest
+[main] INFO  com.twitter.API.Search2  - fetching tweets with #qualitest
+[main] INFO  com.twitter.API.Search2  - fetching tweets with #qualitest
+[main] INFO  com.twitter.API.Search2  - fetching tweets with #qualitest
+[main] INFO  com.twitter.API.Search2  - fetching tweets with #qualitest
+[main] INFO  com.twitter.API.Search2  - fetching tweets with #qualitest
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.WeatherUpdate  - fetching all banglore weather related tweets
+[main] INFO  com.twitter.API.AllTweets  - fetching all tweets of user:
+[main] INFO  com.twitter.API.AllTweets  - fetching all tweets of user:
+[main] INFO  com.twitter.API.DisplayName  - displaying tweets containing #qualitest along with their user name
+[main] INFO  com.twitter.API.BlockUser  - blocking user from replying or retweeting from this account
+[main] INFO  com.twitter.API.Search2  - fetching tweets with #qualitest
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.Tweet  - posting a tweet ----------
+[main] INFO  com.twitter.API.Tweet  - posting a tweet ----------
+[main] INFO  com.twitter.API.AllTweets  - fetching all tweets of user:
+[main] INFO  com.twitter.API.AllTweets  - fetching all tweets of user:
+[main] INFO  com.twitter.API.AllTweets  - fetching all tweets of user:
+[main] INFO  com.twitter.API.DisplayName  - displaying tweets containing #qualitest along with their user name
+[main] INFO  com.twitter.API.DisplayName  - displaying tweets containing #qualitest along with their user name
+[main] INFO  com.twitter.API.DisplayName  - displaying tweets containing #qualitest along with their user name
+[main] INFO  com.twitter.API.DisplayName  - displaying tweets containing #qualitest along with their user name
+[main] INFO  com.twitter.API.Search2  - fetching tweets with #qualitest
+[main] INFO  com.twitter.API.WeatherUpdate  - fetching all banglore weather related tweets
+[main] INFO  com.twitter.API.DisplayName  - displaying tweets containing #qualitest along with their user name
+[main] INFO  com.twitter.API.WeatherUpdate  - fetching all banglore weather related tweets
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.Trends  - fetching trending hashtags----------
+[main] INFO  com.twitter.API.BlockUser  - blocking user from replying or retweeting from this account

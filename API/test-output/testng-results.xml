@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5045" started-at="2019-10-29T05:17:35Z" finished-at="2019-10-29T05:17:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5045" started-at="2019-10-29T05:17:35Z" finished-at="2019-10-29T05:17:40Z">
+      <class name="com.twitter.API.BlockUser">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.twitter.API.BlockUser@6d7b4f4c]" name="init" is-config="true" duration-ms="19" started-at="2019-10-29T05:17:35Z" finished-at="2019-10-29T05:17:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="run()[pri:0, instance:com.twitter.API.BlockUser@6d7b4f4c]" name="run" duration-ms="4991" started-at="2019-10-29T05:17:35Z" finished-at="2019-10-29T05:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- run -->
+      </class> <!-- com.twitter.API.BlockUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
